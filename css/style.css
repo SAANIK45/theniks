@@ -920,3 +920,86 @@ section.video {
 	margin: 20px 0px;
 	overflow: hidden;
 }
+
+
+
+
+
+
+
+.left-contact ul li {
+	display: flex;
+	align-items: center;
+	justify-content: ;
+}
+
+.left-contact i {
+	background: -webkit-linear-gradient(#ff166f, #ff6733);
+	padding: 15px;
+	font-size: 39px;
+	margin: 15px 0px;
+	border-radius: 50%;
+}
+
+.detail {
+	margin-left: 25px;
+}
+
+
+.contact {
+	background: #333;
+	color: #fff;
+	clip-path: polygon(0 0, 100% 0%, 100% 84%, 50% 100%, 0 84%);
+	padding-bottom: 125px;
+}
+
+.detail h4 {
+	color: #fff;
+	text-transform: capitalize;
+	margin: 0;
+}
+
+.main-contact {
+	margin-top: 50px;
+}
+
+.left-contact h1 {
+	color: #fff;
+	text-transform: capitalize;
+}
+
+.left-contact {
+	background: #373737;
+	padding: 35px;
+	border-radius: 10px;
+}
+
+form input {
+	width: 100%;
+	border: none;
+	color: white;
+	background: #373737;
+	padding: 10px 20px;
+	margin: 10px 0px;
+}
+
+form textarea {
+	background: #373737;
+	border: none;
+	width: 100%;
+	height: 120px;
+	color: #fff;
+	padding: 20px;
+}
+
+.btn.contact-btn {
+	margin: 20px 0px;
+	background: -webkit-linear-gradient(#ff166f, #ff6733);
+	padding: 15px;
+	font-size: 14px;
+}
+
+.right-contact h3 {
+	color: #fff;
+	font-size: 26px;
+}
