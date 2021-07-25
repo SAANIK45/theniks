@@ -357,6 +357,10 @@ label {
 	color: #ff6733;
 }
 
+.all-sections {
+	background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgb(8, 31, 95) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
 /* Reusable component */
 
 
@@ -929,14 +933,14 @@ section.video {
 
 .left-contact ul li {
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: ;
 }
 
 .left-contact i {
 	background: -webkit-linear-gradient(#ff166f, #ff6733);
 	padding: 15px;
-	font-size: 39px;
+	font-size: 20px;
 	margin: 15px 0px;
 	border-radius: 50%;
 }
@@ -950,13 +954,16 @@ section.video {
 	background: #333;
 	color: #fff;
 	clip-path: polygon(0 0, 100% 0%, 100% 84%, 50% 100%, 0 84%);
-	padding-bottom: 125px;
+	/*! padding-bottom: ; */
+	margin-top: 15px;
+	padding: 100px 0px;
 }
 
 .detail h4 {
 	color: #fff;
 	text-transform: capitalize;
 	margin: 0;
+	font-size: 16px;
 }
 
 .main-contact {
@@ -1002,4 +1009,51 @@ form textarea {
 .right-contact h3 {
 	color: #fff;
 	font-size: 26px;
+}
+
+
+
+
+
+.footer-post ul li img {
+	width: 100px;
+}
+
+.footer-post ul li {
+	display: flex;
+	align-items: center;
+	margin: 10px 0px;
+}
+
+.footer-post ul li p {
+	color: #fff;
+	margin-left: 20px;
+}
+
+.footer {
+	background: #333;
+	padding: 100px 0px;
+	color: #fff;
+}
+
+.footer-heading {
+	color: #fff;
+	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.footer-link ul li a {
+	color: #ffff;
+	text-transform: capitalize;
+}
+
+.footer-start p {
+	color: #fff;
+	font-size: 16px;
+	margin: 25px 0px;
+}
+
+.footer-link ul li {
+	padding: 5px 0px;
 }
